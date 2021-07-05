@@ -1,0 +1,94 @@
+/** to add font from google font links
+h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+}
+h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+}
+**/
+
+/*font-family: 'Ubuntu', sans-serif;*/
+
+
+/* To add fonts by downloading
+}
+
+@font-face{
+	font-family:Raleway-Black ;
+	src: url(../fonts/raleway/Raleway-Black.ttf);
+}
+
+h1{
+	font-family:Raleway-Regular ;
+	font-family: 400;
+}
+*/
+
+/*Common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+
+/*Common end*/
+/*Header start*/
+header{
+	/*border: 1px solid;*/
+  padding: 30px 0;
+}
+.container{
+	overflow: hidden;
+	margin: 0 auto;
+    width:90%;
+    /*border: 1px solid red;*/
+    
+}
+.logo{
+    width: 12%;
+    /*border: 1px solid green;*/
+    float: left;
+    margin-top: 10px;
+}
+.logo a{
+
+}
+.logo img{
+		width: 100%;
+}
+.manu{
+  width: 70%;
+  /*border: 1px solid red;*/
+  float: right;
+}
+.manu ul{
+	list-style: none;
+	float: right;
+
+}
+.manu ul li{
+float:left;
+}
+.manu ul li a{
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 60px;
+	text-transform: uppercase;
+	color: #626262;
+
+}
+.manu ul li:last-child a{
+	margin-right: 0;
+
+}
+.manu ul li a:hover{
+
+}
+
+
+/*Header end*/
